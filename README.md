@@ -1,6 +1,6 @@
 # Ollama Caption Camera
 
-A custom Tkinter desktop app that captures a webcam frame and asks a local Ollama vision model for a concise caption.
+A QtPy desktop app that captures a webcam frame and asks a local Ollama vision model for a concise caption.
 
 ## Setup
 
@@ -10,10 +10,12 @@ A custom Tkinter desktop app that captures a webcam frame and asks a local Ollam
    python -m pip install -r requirements.txt
    ```
 
-2. Install and start Ollama, then pull a vision model if needed. The app prefers `gemma4:e2b-it-qat` when it is installed:
+   The interface uses QtPy with the PySide6 Qt backend.
+
+2. Install and start Ollama, then pull a vision model if needed. The app prefers `gemma4:31b-cloud` when it is installed:
 
    ```powershell
-   ollama pull gemma4:e2b-it-qat
+   ollama pull gemma4:31b-cloud
    ```
 
 3. Run the app:

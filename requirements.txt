@@ -1,4 +1,6 @@
 opencv-python
 Pillow
 pyttsx3
-customtkinter
+qtpy
+PySide6
+# customtkinter
