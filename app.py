@@ -29,7 +29,7 @@ class CaptionCameraApp(QtWidgets.QMainWindow):
 
     def __init__(self) -> None:
         super().__init__()
-        self.setWindowTitle("Ollama Caption Camera")
+        self.setWindowTitle("CamCaption")
         self.resize(980, 760)
         self.setMinimumSize(820, 650)
 
@@ -89,7 +89,7 @@ class CaptionCameraApp(QtWidgets.QMainWindow):
         self.header_widget = header
         header_layout = QtWidgets.QHBoxLayout(header)
         header_layout.setContentsMargins(12, 12, 12, 12)
-        title = QtWidgets.QLabel("Ollama Caption Camera")
+        title = QtWidgets.QLabel("CamCaption")
         title.setStyleSheet("font-size: 20px; font-weight: 700;")
         self.status_label = QtWidgets.QLabel("Ready")
         self.status_label.setAlignment(QtCore.Qt.AlignRight | QtCore.Qt.AlignVCenter)
